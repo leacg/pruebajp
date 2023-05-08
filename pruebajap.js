@@ -5,7 +5,7 @@ function calcularPuntaje(nombre, apellido, departamento, puntajeFundamentos, pun
 // Hacemos una verificación de los criterios para aprobar la parte técnica.
   if (puntajeTecnico >= 60 && evidenciaFundamentos && evidenciaImperativa && evidenciaObjetos) {
     var puntajeTecnico = "ok";
-  } else if (puntajeTecnico >= 60 && (!evidenciaFundamentos  !evidenciaImperativa  !evidenciaObjetos)) {
+  } else if (puntajeTecnico >= 60 && (!evidenciaFundamentos, !evidenciaImperativa, !evidenciaObjetos)) {
     var puntajeTecnico = "necesita examen final";
   } else if (puntajeTecnico >= 50 && puntajeTecnico < 60 && evidenciaFundamentos && evidenciaImperativa && evidenciaObjetos) {
     var puntajeTecnico = "necesita examen final";
